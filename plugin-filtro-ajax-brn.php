@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Filtro Customizado em Ajax para Elementor
  * Description: Adicione um filtro de categoria personalizado usando checkboxes. <a href="https://wleads.link/go/filtro-customizado-em-ajax-para-elementor">Documentação aqui.</a>
- * Version: 1.0.3
+ * Version: 1.0.4
  * Author: Bruno A.
  */
 
