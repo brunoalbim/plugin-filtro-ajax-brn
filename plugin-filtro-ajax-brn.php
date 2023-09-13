@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Filtro Customizado em Ajax para Elementor
  * Description: Adicione um filtro de categoria personalizado usando checkboxes. <a href="https://wleads.link/go/filtro-customizado-em-ajax-para-elementor">Documentação aqui.</a>
- * Version: 1.0.4
+ * Version: 1.0.5
  * Author: Bruno A.
  */
 
@@ -18,7 +18,7 @@ function generate_category_checkboxes_shortcode() {
 
     if (!empty($categories)) {
         foreach ($categories as $category) {
-            echo '<label><input type="checkbox" class="checkbox-categoria" name="category_filter" value="' . esc_attr($category->slug) . '"> ' . esc_html($category->name) . '</label><br>';
+            echo '<label><input type="checkbox" class="checkbox-categoria" name="category_filter" value="' . esc_attr($category->slug) . '"> ' . esc_html($category->name) . '</label>';
         }
     }
 
